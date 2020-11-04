@@ -86,6 +86,135 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*---------------------BASE HEADER-FOOTER STYLES------------------------------*/  
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  flex-direction: column;
+
+}
+
+.header-divider {
+
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+}
+
+/* Mobile styles ---- HOMEPAGE------ */
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+aside .form {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.features .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+
+}
+
+article #review-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  
+}
+
+article h3, p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* Footer */
+
+footer {
+  flex-direction: column;
+
+}
+
+footer .contact {
+  
+
+}
+
+footer .social {
+  
+
+}
+
+footer .copyright {
+  
+}
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes

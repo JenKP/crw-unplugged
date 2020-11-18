@@ -632,6 +632,10 @@ footer .copyright {
   width: 45%;
 }
 
+.map figure {
+  padding-bottom: 45.5%;
+}
+
 .contact-section .content-wrapper h2 {
   width: 80%;
 }
@@ -735,6 +739,10 @@ reviews article div {
   width: 95%;
 }
   
+.map figure {
+  padding-bottom: 37.5%;
+}
+
 .contact-content h4 {
   font-size: 1.875em;
 }

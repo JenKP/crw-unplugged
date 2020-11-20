@@ -349,6 +349,10 @@ input[type=button] {
   width: 55%;
 }
 
+.social i {
+  font-size: 1.125em;
+}
+
 
 /* ==========================================================================
    About Page
@@ -623,6 +627,11 @@ footer .contact {
 
 footer .copyright {
   width: 100%;
+}
+
+.social i {
+  font-size: 1.125em;
+  padding: 30px;
 }
 
 /* ABOUT PAGE */

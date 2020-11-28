@@ -226,7 +226,6 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 12em;
 }
 
 footer .social-icons p {
@@ -516,25 +515,7 @@ input[type=button] {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-@media only screen and (max-width: 240px) {
-footer .social-icons {
-  width: 8em;
-}
 
-footer .social-icons p i {
-  font-size: 0.875em;
-}
-
-footer .social-icons p {
-  background-color: #527158;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-}
 
 @media only screen and (min-width: 768px) {
   /* TABLET STYLES HERE ------------------------------------------------------*/
@@ -665,6 +646,11 @@ footer .contact {
 
 footer .copyright {
   width: 100%;
+}
+
+footer .social-icons {
+  justify-content: space-between;
+  width: 12em;
 }
 
 .social i {
